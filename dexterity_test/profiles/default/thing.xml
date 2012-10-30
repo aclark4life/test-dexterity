@@ -1,0 +1,9 @@
+<model xmlns:security="http://namespaces.plone.org/supermodel/security" xmlns:marshal="http://namespaces.plone.org/supermodel/marshal" xmlns:form="http://namespaces.plone.org/supermodel/form" xmlns="http://namespaces.plone.org/supermodel/schema">
+  <schema>
+    <field name="is_this_a_thing" type="zope.schema.Bool" form:widget="z3c.form.browser.radio.RadioFieldWidget">
+      <default>True</default>
+      <description>Is this a thing?</description>
+      <title>Is this a thing?</title>
+    </field>
+  </schema>
+</model>
