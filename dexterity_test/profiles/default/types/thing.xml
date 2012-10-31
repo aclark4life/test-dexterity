@@ -25,17 +25,8 @@
   <element
      value="plone.app.dexterity.behaviors.exclfromnav.IExcludeFromNavigation"/>
  </property>
- <property name="schema"></property>
- <property
-    name="model_source">&lt;model xmlns:security="http://namespaces.plone.org/supermodel/security" xmlns:marshal="http://namespaces.plone.org/supermodel/marshal" xmlns:form="http://namespaces.plone.org/supermodel/form" xmlns="http://namespaces.plone.org/supermodel/schema"&gt;
-    &lt;schema&gt;
-      &lt;field name="is_this_a_thing" type="zope.schema.Bool" form:widget="z3c.form.browser.radio.RadioFieldWidget"&gt;
-        &lt;default&gt;True&lt;/default&gt;
-        &lt;description&gt;Is this a thing?&lt;/description&gt;
-        &lt;title&gt;Is this a thing?&lt;/title&gt;
-      &lt;/field&gt;
-    &lt;/schema&gt;
-  &lt;/model&gt;</property>
+ <property name="schema">dexterity_test.IThing</property>
+ <property name="model_source"></property>
  <property name="model_file"></property>
  <alias from="(Default)" to="(dynamic view)"/>
  <alias from="edit" to="@@edit"/>
