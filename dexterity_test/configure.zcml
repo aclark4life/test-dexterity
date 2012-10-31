@@ -4,8 +4,6 @@
     xmlns:gs="http://namespaces.zope.org/genericsetup"
     >
 
-    <includeDependencies package="." />
-
     <grok:grok package="." />
 
     <gs:registerProfile
