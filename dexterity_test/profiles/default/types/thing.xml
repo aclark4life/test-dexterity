@@ -25,7 +25,7 @@
   <element
      value="plone.app.dexterity.behaviors.exclfromnav.IExcludeFromNavigation"/>
  </property>
- <property name="schema">dexterity_test.IThing</property>
+ <property name="schema">dexterity_test.thing.IThing</property>
  <property name="model_source"></property>
  <property name="model_file"></property>
  <alias from="(Default)" to="(dynamic view)"/>
